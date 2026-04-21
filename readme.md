@@ -28,12 +28,7 @@ Use your favourite package manager and call the setup function.
 
 ```lua
 -- lua with lazy.nvim
-{
-  "max397574/better-escape.nvim",
-  config = function()
-    require("better_escape").setup()
-  end,
-}
+{ "max397574/better-escape.nvim", opts = {} }
 ```
 
 ## ❗Rewrite
